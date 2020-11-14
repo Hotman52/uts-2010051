@@ -13,50 +13,33 @@
                 box-shadow: -6px 2px 27px 0px rgba(0,0,236,0.199);
                 background-color: rgba(182, 248, 166, 0.664);
             }
-            .head-table {
-                background-color: rgb(166, 250, 250);
-            }
-            pre {  
-                color:black;
-
+            select {
+                width: 100%;
             }
     </style>
 </head>
 <body>
-    <table border=1px cellpadding="10px">
+    <table   cellpadding="10px">
+        <tr >
+                <td>
+                    <label for="">KAMPUS </label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" placeholder="STMIK ANTAR BANGSA">
+                </td>
+        </tr>   
         <tr>
-           <td colspan="4" align="center" class="head-table">My Profile</td>
+            <td>
+                <label for="">PRODI </label>
+            </td>
+            <td>:</td>
+            <td>
+                <select name="" id="">
+                    <option value="">Teknik Informatika</option>
+                </select>
+            </td>
         </tr>
-        <tr class="body-table">
-            <td>
-<pre>
-    Nama 
-    Kelas
-    Prodi
-    Hobby
-</pre>
-            </td>
-            <td>
-<pre>
-    : 
-    :
-    :
-    :
-</pre>
-            </td>
-            <td>
-<pre>
-    Hotman Khairuman Wahyu Utama
-    1.1B
-    Teknik Informatika
-    Ngoding 
-</pre>
-            </td>
-            <td style="text-align:center">
-                Foto <br>
-                <img src="hotman.JPG" alt="hotman" width="100px">
-            </td>
-        </tr> 
     </table>
 </body>
 </html>
